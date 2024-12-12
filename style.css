@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+header .photo {
+    flex: 1;
+    max-width: 120px;
+}
+
+header .photo img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #0073e6;
+}
+
+header .header-info {
+    flex: 3;
+    margin-left: 20px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+header .job-description {
+    color: #555;
+    font-size: 1.2em;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 2px solid #ddd;
+}
+
+.right-section {
+    flex: 2;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+p {
+    color: #555;
+    margin-bottom: 10px;
+}
